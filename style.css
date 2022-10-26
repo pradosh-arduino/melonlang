@@ -1,0 +1,237 @@
+a {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.large-header {
+  position: relative;
+  width: 100%;
+  background: #333;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  background: rgb(88, 151, 59);
+  background: linear-gradient(90deg, rgb(104, 168, 75) 0%, rgb(25, 179, 117) 100%);
+  z-index: 0;
+}
+
+.main-title {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-shadow: 3px 3px 10px #32243E;
+}
+
+.Top-Icon{
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  text-align: center;
+  top: 2%;
+  left: 1%;
+  animation-name: iconHoverExit;
+  animation-duration: 0.5s;
+}
+
+@keyframes iconHoverExit {
+  from {
+    scale: 120%
+  }
+
+  to {
+    scale: 100%;
+  }
+}
+
+@keyframes iconHover {
+  from {
+    scale: 100%
+  }
+  to {
+    scale: 120%;
+  }
+}
+
+.Top-Icon:hover{
+  scale: 100%;
+  animation-name: iconHover;
+  animation-duration: 0.5s;
+  scale: 120%;
+}
+
+.Copyright {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  text-align: center;
+  top: 97%;
+  left: 0.5%;
+  font-weight: 80;
+  transition: color 0.1s ease-in-out;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.Top-Ribbon {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  text-align: center;
+  top: 3.5%;
+  left: 94%;
+  font-weight: 200;
+  transition: color 0.1s ease-in-out;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-shadow: 6px 6px 10px #32243E;
+}
+
+.Top-Ribbon:hover{
+  color: #dddddd;
+  text-shadow: 1px 1px 10px #32243E;
+}
+
+.Top-Ribbon2 {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  text-align: center;
+  top: 3.5%;
+  left: 90%;
+  font-weight: 200;
+  transition: color 0.1s ease-in-out;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-shadow: 6px 6px 10px #32243E;
+}
+
+.Top-Ribbon2:hover {
+  color: #dddddd;
+  text-shadow: 1px 1px 10px #32243E;
+}
+
+.Top-Ribbon3 {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  text-align: center;
+  top: 3.5%;
+  left: 87%;
+  font-weight: 200;
+  transition: color 0.1s ease-in-out;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-shadow: 6px 6px 10px #32243E;
+}
+
+.Top-Ribbon3:hover {
+  color: #dddddd;
+  text-shadow: 1px 1px 10px #32243E;
+}
+
+.Top-Ribbon4 {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  text-align: center;
+  top: 3.5%;
+  left: 83%;
+  font-weight: 200;
+  transition: color 0.1s ease-in-out;
+  text-shadow: 6px 6px 10px #32243E;
+}
+
+.Top-Ribbon4:hover {
+  color: #dddddd;
+  text-shadow: 1px 1px 10px #32243E;
+}
+
+.demo-1 .main-title {
+  text-transform: uppercase;
+  font-size: 4.2em;
+  letter-spacing: 0.1em;
+}
+
+.main-title .thin {
+  font-weight: 200;
+}
+
+.font {
+  font-family: 'Fira Code', 'Courier New', monospace;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+.sub-title {
+  font-family: 'Fira Code', 'Courier New', monospace;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, 60%, 0);
+  transform: translate3d(-50%, 60%, 0);
+  font-weight: 200;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-shadow: 6px 6px 10px #32243E;
+}
+
+@media only screen and (max-width : 768px) {
+  .demo-1 .main-title {
+    font-size: 3em;
+  }
+}

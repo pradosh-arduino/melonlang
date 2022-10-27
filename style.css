@@ -15,7 +15,7 @@ a {
   background-size: cover;
   background-position: center center;
   background: rgb(88, 151, 59);
-  background: linear-gradient(90deg, rgb(104, 168, 75) 0%, rgb(25, 179, 117) 100%);
+  background: linear-gradient(90deg, rgb(63, 102, 44) 0%, rgb(10, 78, 51) 100%)
   z-index: 0;
 }
 
